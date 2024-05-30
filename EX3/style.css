@@ -1,0 +1,17 @@
+.div-box-small {
+  width: 100px;
+  height: 100px;
+  background-color: black;
+  color: white;
+}
+.div-box-large {
+  width: 200px;
+  height: 200px;
+  background-color: gray;
+  color: white;
+}
+.box-area {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+}

@@ -1,0 +1,18 @@
+.div-box {
+  width: 100px;
+  height: 100px;
+  background-color: black;
+  color: white;
+}
+.first-line {
+  display: flex;
+  justify-content: flex-start;
+}
+.second-line {
+  display: flex;
+  justify-content: center;
+}
+.third-line {
+  display: flex;
+  justify-content: flex-end;
+}

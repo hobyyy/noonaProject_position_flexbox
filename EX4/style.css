@@ -1,0 +1,12 @@
+.div-box-black {
+  width: 100px;
+  height: 100px;
+  background-color: black;
+  color: white;
+}
+.div-box-gray {
+  width: 100px;
+  height: 100px;
+  background-color: gray;
+  color: white;
+}
