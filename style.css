@@ -1,0 +1,124 @@
+body {
+  margin: 0;
+  height: 100vh;
+}
+
+.div-box {
+  width: 100px;
+  height: 100px;
+  background-color: black;
+  color: white;
+}
+
+
+.header {
+  height: 40px;
+  background-color: rgb(144, 19, 254);
+  display: flex;
+  align-items: center;
+  padding-left: 5px; 
+}
+
+.nav {
+  position: relative;
+  font-family: 'Sunflower', sans-serif;
+}
+.nav a {
+  text-decoration: none;
+  color: black;
+  margin: 1em;
+  font-size: 22px;
+  position: relative;
+} 
+
+.nav a:hover {
+  color: white;
+}
+
+
+/* EX1 */
+.box-area-1depth {
+  display: flex;
+  justify-content: space-between;
+}
+.box-area-2depth {
+  display: flex;
+  flex-direction: row;
+}
+.margin5 {
+  margin-right: 5px;
+}
+/* EX2 */
+.first-line {
+  display: flex;
+  justify-content: flex-start;
+}
+.second-line {
+  display: flex;
+  justify-content: center;
+}
+.third-line {
+  display: flex;
+  justify-content: flex-end;
+}
+/* EX3*/
+
+.smallbox-location {
+  position: relative;
+  left: -150px;
+  bottom: -50px;
+}
+.div-box-large1 {
+  width: 200px;
+  height: 200px;
+  background-color: gray;
+  color: white;
+}
+.box-area {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+/* EX4 */
+.div-box-EX4 {
+  width: 100px;
+  height: 100px;
+  color: white;
+  position: relative;
+}
+.black {
+  background-color: black;
+}
+.gray {
+  background-color: gray;
+  left: 50px;
+  bottom: 50px;
+}
+
+
+/* EX5 */
+.container {
+  height: calc(100vh - 40px);
+
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+.div-box-large2 {
+  width: 350px;
+  height: 150px;
+  background-color: gray;
+  color: white;
+}
+.div1-location {
+  position: relative;
+  left: 200px;
+}
+.div2-location {
+  position: relative;
+  right: 150px;
+}
+.div3-location {
+  position: relative;
+  bottom: 50px;
+}
