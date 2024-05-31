@@ -1,12 +1,17 @@
-.div-box-black {
-  width: 100px;
-  height: 100px;
-  background-color: black;
-  color: white;
+body {
+  margin: 0;
 }
-.div-box-gray {
+.div-box {
   width: 100px;
   height: 100px;
-  background-color: gray;
   color: white;
+  position: relative;
+}
+.black {
+  background-color: black;
+}
+.gray {
+  background-color: gray;
+  left: 50px;
+  bottom: 50px;
 }
